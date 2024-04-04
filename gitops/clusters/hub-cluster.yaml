@@ -7,13 +7,13 @@ metadata:
     enable_velero: 'true'
   annotations:
     aws_cluster_name: hub-cluster
-    k8s_service_host: 0B6FD9F5C66F2CA941C8E236CF81DF06.gr7.us-east-1.eks.amazonaws.com
-    velero_backup_s3_bucket_name: gitopscon-na-24-velero-backups-hub
-    velero_iam_role_arn: arn:aws:iam::753080021511:role/velero-role-2f50701
-    addons_repo_url: https://github.com/gitops-bridge-dev/gitopscon-2024-na-demo
+    k8s_service_host: 743CB7073F3234CC50CDA6DE3DDBAF93.gr7.us-east-1.eks.amazonaws.com
+    velero_backup_s3_bucket_name: gitopscon-na-24-velero-backups-carlos-hub
+    velero_iam_role_arn: arn:aws:iam::015299085168:role/velero-role-3a0383d
+    addons_repo_url: https://github.com/csantanapr/gitopscon-2024-na-demo
     addons_repo_revision: HEAD
     aws_region: us-east-1
-    aws_account_id: '753080021511'
+    aws_account_id: '015299085168'
     velero_namespace: velero
     velero_service_account: velero
     velero_backup_s3_bucket_prefix: backups
